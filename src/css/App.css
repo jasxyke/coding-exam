@@ -48,7 +48,7 @@ button {
   justify-content: center;
   overflow: auto;
   padding: 20px 0;
-  max-height: calc(0.5 * var(--body-height));
+  height: calc(0.5 * var(--body-height));
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
