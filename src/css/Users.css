@@ -11,10 +11,7 @@
   .user-table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-  }
-
-  .user-table {
+    grid-template-rows: min-content;
   }
 }
 
