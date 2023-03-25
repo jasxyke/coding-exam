@@ -39,13 +39,19 @@ button {
   width: var(--button-width);
 }
 
+.spinner-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .input {
   padding: 0.3rem;
   width: 30ch;
 }
 .tb-container {
-  display: flex;
-  justify-content: center;
   overflow: auto;
   padding: 20px 0;
   height: calc(0.5 * var(--body-height));
