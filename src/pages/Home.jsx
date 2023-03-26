@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <div className="content">
-      <Header />
+      <Header text={"DISTRICT MANAGER"} />
       <div className="container">
         <div className="select-container">
           <SelectFilter

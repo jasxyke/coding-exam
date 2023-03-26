@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../css/Date.css";
+import Button from "./Button";
 const DateConverter = () => {
   const [date, setDate] = useState();
 
@@ -22,9 +23,7 @@ const DateConverter = () => {
         id="date"
         onChange={(e) => setDate(e.target.value)}
       />
-      <button className="button" onClick={convertDate}>
-        Convert
-      </button>
+      <Button text={"Convert"} onClick={convertDate} />
     </div>
   );
 };
