@@ -9,8 +9,7 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  /* min-height: var(--nav-height); */
-  min-height: var(--nav-height);
+  height: var(--nav-height);
 }
 
 .hide-nav {
@@ -21,15 +20,13 @@ ul {
   width: 40px;
 }
 
-.logo {
-  margin-left: 15px;
-}
-
 .mobile-navbar {
   display: flex;
   min-height: 100%;
   justify-content: space-between;
+  padding: 0 15px;
   min-height: var(--nav-height);
+  align-items: center;
 }
 
 .mobile-navs {
@@ -51,21 +48,26 @@ ul {
 
 .desktop-navbar {
   display: flex;
+  justify-content: start;
+}
+
+.desktop-logo-box,
+.desktop-navs {
+  display: flex;
+  margin: auto 0;
 }
 
 .desktop-logo-box {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  margin-right: auto;
+  padding-left: 40px;
+  width: 20%;
 }
 
 .desktop-navs {
-  display: flex;
-  flex-grow: 5;
+  width: 100%;
   gap: 4rem;
   font-size: var(--fs-400);
-  margin: auto 0;
+  margin-left: auto;
 }
 
 .desktop-navs > li > p {
